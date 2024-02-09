@@ -1,0 +1,5 @@
+{
+  "files.autoSave": "off",
+  "html.format.wrapAttributes": "force-aligned",
+  "FSharp.suggestGitignore": false
+}
