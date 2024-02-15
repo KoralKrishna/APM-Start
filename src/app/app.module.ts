@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { WelcomeComponent } from './home/welcome.component';
 import { RouterModule } from '@angular/router';
 import { ProductModule } from './products/product.module';
+import { UserSettingsFormComponent } from './user-settings-form/user-settings-form.component';
+import { UserSettingsFormModule } from './user-settings-form/user-settings-form.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { ProductModule } from './products/product.module';
       { path: '', redirectTo: 'welcome', pathMatch: 'full' },
       { path: '**', redirectTo: 'welcome', pathMatch: 'full' }
     ]),
-    ProductModule
+    ProductModule,
+    UserSettingsFormModule
   ],
   bootstrap: [AppComponent]
 })
