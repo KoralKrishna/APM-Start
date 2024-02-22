@@ -1,8 +1,8 @@
 
 export interface IUserSettings {
-    name: string | null,
-    emailOffers: boolean | null,
-    gender: string | null,
-    subscriptionType: string | null,
-    address: string | null
+    name: string,
+    emailOffers: boolean,
+    gender: string,
+    subscriptionType: string,
+    address: string
 }
